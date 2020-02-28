@@ -2,8 +2,8 @@
 
 <div align="center">
   <br />
-  <a href="https://github.com/AaronBank/vue-auto-name-loader/blob/master/README.ZH.md">Chinese</a>
-  <a href="https://github.com/AaronBank/vue-auto-name-loader" style="margin-left: 12px;">English</a>
+  <a href="https://github.com/AaronBank/vue-auto-name-loader/blob/master/README.ZH.md">中文文档</a>
+  <a href="https://github.com/AaronBank/vue-auto-name-loader" style="margin-left: 12px;">英文文档</a>
   <br /><br />
   <img src="https://img.shields.io/badge/license-MIT-green.svg"/>
   <img src="https://img.shields.io/badge/npm-v6.5.0-blue.svg" style="margin-left: 12px;"/>
@@ -12,14 +12,14 @@
 <br/>
 
 
-### Installation
+### 安装
 
 ```javascript
 npm install vue-auto-name-loader -D
 ```
 
-### Use
-**Modify `webpack: vue-loader` related configuration**
+### 使用
+**修改 `webpack：vue-loader` 相关配置**
 
 ```javascript
 module.exports = {
@@ -45,7 +45,7 @@ module.exports = {
 }
 ```
 
-> Before conversion
+> 转化前
 
 ```html
 <template>
@@ -65,7 +65,8 @@ export default {
 </style>
 ```
 
-> After conversion
+> 转化后
+
 
 ```html
 <template>
@@ -86,7 +87,7 @@ export default {
 </style>
 ```
 
-### Parameter
+### 参数
 
 - prefix：name前缀设置，默认为空
 

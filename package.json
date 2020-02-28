@@ -1,0 +1,45 @@
+{
+  "name": "vue-auto-name-loader",
+  "version": "1.0.0",
+  "description": "vue组件自动为组件添加name",
+  "main": "lib/index.js",
+  "scripts": {
+    "example": "webpack",
+    "clean": "rimraf lib/",
+    "build": "babel src/ --out-dir lib/ --copy-files",
+    "prepublish": "yarn run clean && yarn run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronBank/vue-auto-name-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "vue",
+    "vue name",
+    "name"
+  ],
+  "author": "Arron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AaronBank/vue-auto-name-loader/issues"
+  },
+  "homepage": "https://github.com/AaronBank/vue-auto-name-loader#readme",
+  "dependencies": {
+    "@babel/generator": "^7.8.6",
+    "@babel/parser": "^7.8.3",
+    "@babel/traverse": "^7.8.6",
+    "@babel/types": "^7.8.6",
+    "loader-utils": "^1.4.0",
+    "schema-utils": "^2.6.4"
+  },
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "rimraf": "^3.0.2",
+    "vue": "^2.6.11",
+    "vue-loader": "^13.3.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^3.6.0"
+  }
+}

@@ -1,0 +1,20 @@
+# default
+.DS_Store
+.vscode
+*.sublime*
+.travis.yml
+
+# modules
+node_modules
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# example
+/dist
+/example
+state.json
+webpack.config.js
+
+# source
+/src
